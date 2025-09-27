@@ -1,8 +1,15 @@
+import NavBar from './Components/NavBar/NavBar';
+import './App.css'
+import './Components/Banner/Banner.css'
+import Banner from './Components/Banner/Banner';
+import RawPost from './Components/RawPost/RawPost';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <NavBar/>
+      <Banner/>
+      <RawPost/>
     </div>
   );
 }

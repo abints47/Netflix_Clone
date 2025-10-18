@@ -1,21 +1,89 @@
-.navbar{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 30px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #111;
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  background: linear-gradient(180deg, rgba(0,0,0,0.7) 10%, transparent);
+  transition: all 0.3s ease;
 }
 
-.logo{
-    position: fixed;
-    left: 20px;
-    width: 80px;
+.navbar__black {
+  background-color: #111;
 }
-.avatar{
-    position: fixed;
-    right: 20px;
-    width: 30px;
+
+.navbar__logo {
+  height: 25px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 40px;
+}
+
+.navbar__link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar__link:hover {
+  color: #e50914;
+}
+
+.navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar__search,
+.navbar__notifications {
+  cursor: pointer;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar__search:hover,
+.navbar__notifications:hover {
+  color: #e50914;
+}
+
+.navbar__search-icon,
+.navbar__bell-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.navbar__avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.navbar__avatar:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .navbar__menu {
+    display: none;
+  }
+  
+  .navbar {
+    padding: 0 20px;
+  }
 }

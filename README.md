@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Netflix Clone 🍿
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, minimal, and responsive **Netflix Clone** built for browsing movies and TV shows, discovering trending titles, searching for your favorite content, and enjoying a seamless cinematic UI experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Screenshots
 
-### `npm start`
+| Home Screen |
+|:-----------:|
+| ![Home Screen](image.png) |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 🎬 **Dynamic Movie Catalog** 
+  Browse trending, popular, top-rated, and genre-specific movies and TV shows.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔍 **Real-Time Search** 
+  Quickly search for movies and shows using the TMDB API.
 
-### `npm run build`
+- 📺 **Movie & TV Show Details** 
+  View posters, backdrops, ratings, release dates, descriptions, genres, and other information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🔥 **Trending Content** 
+  Discover what's currently popular and trending.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🎭 **Genre-Based Browsing** 
+  Explore content based on different movie and TV genres.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 📱 **Fully Responsive Design** 
+  Optimized for mobile, tablet, laptop, and desktop screens.
 
-### `npm run eject`
+- ⚡ **Fast & Modern UI** 
+  Built with a clean component-based architecture for a smooth experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 🌙 **Netflix-Inspired Dark Theme** 
+  A cinematic dark interface inspired by modern streaming platforms.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Tech Stack
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Frontend
 
-## Learn More
+- [React](https://react.dev/)
+- [Next.js](https://nextjs.org/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Styling
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Tailwind CSS](https://tailwindcss.com/)
 
-### Code Splitting
+### API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [TMDB API](https://www.themoviedb.org/documentation/api)
 
-### Analyzing the Bundle Size
+### Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- JavaScript / TypeScript
+- npm
+- REST API
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📂 Project Structure
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```text
+netflix-clone/
+├── public/
+│   ├── images/
+│   └── icons/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── app/
+│   ├── hooks/
+│   ├── lib/
+│   └── styles/
+│
+├── .env.local
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── next.config.js
+└── README.md

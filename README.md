@@ -2,6 +2,8 @@
 
 A modern, minimal, and responsive **Netflix Clone** built for browsing movies and TV shows, discovering trending titles, searching for your favorite content, and enjoying a seamless cinematic UI experience.
 
+Live Link :- https://netflix-clone-popcorn.vercel.app
+
 ---
 
 ## 📸 Screenshots
